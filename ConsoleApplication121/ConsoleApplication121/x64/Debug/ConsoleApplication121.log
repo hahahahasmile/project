@@ -1,0 +1,5 @@
+﻿  ConsoleApplication121.cpp
+C:\Users\user\source\repos\ConsoleApplication121\ConsoleApplication121\ConsoleApplication121.cpp(214,2): error C2664: 'BOOL PlaySoundW(LPCWSTR,HMODULE,DWORD)': 인수 1을(를) 'const char [12]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+C:\Users\user\source\repos\ConsoleApplication121\ConsoleApplication121\ConsoleApplication121.cpp(214,12): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\playsoundapi.h(112,1): message : 'PlaySoundW' 선언을 참조하십시오.
+C:\Users\user\source\repos\ConsoleApplication121\ConsoleApplication121\ConsoleApplication121.cpp(214,2): message : 인수 목록 '(const char [12], int, int)'을(를) 일치시키는 동안
